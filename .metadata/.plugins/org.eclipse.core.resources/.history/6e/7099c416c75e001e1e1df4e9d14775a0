@@ -1,0 +1,11 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+public interface BrandRepository {
+	java.util.List<Brand> getALL();
+	
+	private void List() {
+		
+	}
+}

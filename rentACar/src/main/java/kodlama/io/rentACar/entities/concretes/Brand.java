@@ -25,10 +25,6 @@ public class Brand {
 	private int id;
 	@Column(name = "name")
 	private String name;
-	
-	@Column(name="Price")
-	private int Price;
-
 	/*
 	 * public Brand() { }
 	 * 

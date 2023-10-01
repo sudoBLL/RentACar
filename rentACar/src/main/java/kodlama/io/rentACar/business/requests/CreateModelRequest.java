@@ -17,6 +17,5 @@ public class CreateModelRequest {
 	private String name;
 	
 	@NotNull
-	@NotBlank
 	private int brand_id;
 }

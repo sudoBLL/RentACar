@@ -1,5 +1,6 @@
 package kodlama.io.rentACar.business.requests;
 
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -16,6 +17,6 @@ public class CreateModelRequest {
 	@Size(min = 3 , max = 20)
 	private String name;
 	
-	@NotNull
+	@Min(1)
 	private int brand_id;
 }
